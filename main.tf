@@ -2,19 +2,19 @@ terraform {
 	required_providers {
 		aws = {
 			source = "hashicorp/aws"
-			version = "3.11.0"
+			version = "~> 4.0"
 		}
 	}
 }
 
 provider "aws" {
-	version = "~> 3.0"
+	version = "~> 4.0"
 	region = "ca-central-1"
 	alias = "master"
 }
 
 provider "aws" {
-	version = "~> 3.0"
+	version = "~> 4.0"
 	region = "ca-central-1"
 	alias = "perimeter"
 
