@@ -16,6 +16,45 @@ This repo provides a starting point for users who want to create valid Terraform
 
 ## Documentation
 <!-- BEGIN_TF_DOCS -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_aws.perimeter"></a> [aws.perimeter](#provider\_aws.perimeter) | ~> 4.0 ~> 4.0 ~> 4.0 |
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_lz_info"></a> [lz\_info](#module\_lz\_info) | github.com/BCDevOps/terraform-aws-sea-organization-info | n/a |
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [aws_route53_zone.nimbus](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_automation_role_name"></a> [automation\_role\_name](#input\_automation\_role\_name) | The role used for executing automation commands in the environment. | `string` | `"OrganizationAccountAccessRole"` | no |
+| <a name="input_master_account_id"></a> [master\_account\_id](#input\_master\_account\_id) | Master Account Id | `string` | n/a | yes |
+| <a name="input_perimeter_account_name"></a> [perimeter\_account\_name](#input\_perimeter\_account\_name) | Perimeter Account Name | `string` | `"Perimeter"` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_nimbus_name_servers"></a> [nimbus\_name\_servers](#output\_nimbus\_name\_servers) | n/a |
 <!-- END_TF_DOCS -->
 
 ## Getting Started
