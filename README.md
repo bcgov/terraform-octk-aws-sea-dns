@@ -1,31 +1,61 @@
-
-# <application_license_badge>
-<!--- [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) --->
-
-# BC Gov Terraform Template
-
-This repo provides a starting point for users who want to create valid Terraform modules stored in GitHub.  
-
-## Third-Party Products/Libraries used and the licenses they are covered by
-<!--- product/library and path to the LICENSE --->
-<!--- Example: <library_name> - [![GitHub](<shield_icon_link>)](<path_to_library_LICENSE>) --->
+# Terraform Module for AWS SEA DNS
 
 ## Project Status
 - [x] Development
 - [ ] Production/Maintenance
 
-## Documentation
-<!--- Point to another readme or create a GitHub Pages (https://guides.github.com/features/pages/) --->
+# Documentation
+<!-- BEGIN_TF_DOCS -->
+## Requirements
 
-## Getting Started
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_aws.perimeter"></a> [aws.perimeter](#provider\_aws.perimeter) | ~> 4.0 ~> 4.0 ~> 4.0 |
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_lz_info"></a> [lz\_info](#module\_lz\_info) | github.com/BCDevOps/terraform-aws-sea-organization-info | n/a |
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [aws_route53_zone.nimbus](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_automation_role_name"></a> [automation\_role\_name](#input\_automation\_role\_name) | The role used for executing automation commands in the environment. | `string` | `"OrganizationAccountAccessRole"` | no |
+| <a name="input_master_account_id"></a> [master\_account\_id](#input\_master\_account\_id) | Master Account Id | `string` | n/a | yes |
+| <a name="input_perimeter_account_name"></a> [perimeter\_account\_name](#input\_perimeter\_account\_name) | Perimeter Account Name | `string` | `"Perimeter"` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_nimbus_name_servers"></a> [nimbus\_name\_servers](#output\_nimbus\_name\_servers) | n/a |
+<!-- END_TF_DOCS -->
+
+# Getting Started
 <!--- setup env vars, secrets, instructions... --->
 
-## Getting Help or Reporting an Issue
+# Getting Help or Reporting an Issue
 <!--- Example below, modify accordingly --->
 To report bugs/issues/feature requests, please file an [issue](../../issues).
 
 
-## How to Contribute
+# How to Contribute
 <!--- Example below, modify accordingly --->
 If you would like to contribute, please see our [CONTRIBUTING](./CONTRIBUTING.md) guidelines.
 
@@ -33,7 +63,7 @@ Please note that this project is released with a [Contributor Code of Conduct](.
 By participating in this project you agree to abide by its terms.
 
 
-## License
+# License
 <!--- Example below, modify accordingly --->
     Copyright 2018 Province of British Columbia
 
