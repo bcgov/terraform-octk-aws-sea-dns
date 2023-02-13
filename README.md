@@ -1,20 +1,10 @@
-
-# <application_license_badge>
-<!--- [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) --->
-
-# BC Gov Terraform Template
-
-This repo provides a starting point for users who want to create valid Terraform modules stored in GitHub.  
-
-## Third-Party Products/Libraries used and the licenses they are covered by
-<!--- product/library and path to the LICENSE --->
-<!--- Example: <library_name> - [![GitHub](<shield_icon_link>)](<path_to_library_LICENSE>) --->
+# Terraform Module for AWS SEA DNS
 
 ## Project Status
 - [x] Development
 - [ ] Production/Maintenance
 
-## Documentation
+# Documentation
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -57,15 +47,15 @@ This repo provides a starting point for users who want to create valid Terraform
 | <a name="output_nimbus_name_servers"></a> [nimbus\_name\_servers](#output\_nimbus\_name\_servers) | n/a |
 <!-- END_TF_DOCS -->
 
-## Getting Started
+# Getting Started
 <!--- setup env vars, secrets, instructions... --->
 
-## Getting Help or Reporting an Issue
+# Getting Help or Reporting an Issue
 <!--- Example below, modify accordingly --->
 To report bugs/issues/feature requests, please file an [issue](../../issues).
 
 
-## How to Contribute
+# How to Contribute
 <!--- Example below, modify accordingly --->
 If you would like to contribute, please see our [CONTRIBUTING](./CONTRIBUTING.md) guidelines.
 
@@ -73,7 +63,7 @@ Please note that this project is released with a [Contributor Code of Conduct](.
 By participating in this project you agree to abide by its terms.
 
 
-## License
+# License
 <!--- Example below, modify accordingly --->
     Copyright 2018 Province of British Columbia
 
