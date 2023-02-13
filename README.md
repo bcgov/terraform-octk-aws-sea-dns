@@ -15,7 +15,8 @@ This repo provides a starting point for users who want to create valid Terraform
 - [ ] Production/Maintenance
 
 ## Documentation
-<!--- Point to another readme or create a GitHub Pages (https://guides.github.com/features/pages/) --->
+<!-- BEGIN_TF_DOCS -->
+<!-- END_TF_DOCS -->
 
 ## Getting Started
 <!--- setup env vars, secrets, instructions... --->
