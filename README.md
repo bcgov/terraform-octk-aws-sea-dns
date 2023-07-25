@@ -8,17 +8,13 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
+No requirements.
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws.perimeter"></a> [aws.perimeter](#provider\_aws.perimeter) | ~> 4.0 ~> 4.0 ~> 4.0 |
+| <a name="provider_aws.Perimeter-account"></a> [aws.Perimeter-account](#provider\_aws.Perimeter-account) | n/a |
 
 ## Modules
 
