@@ -10,13 +10,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~>4.0.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.57.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws.Perimeter-account"></a> [aws.Perimeter-account](#provider\_aws.Perimeter-account) | ~>4.0.0 |
+| <a name="provider_aws.Perimeter-account"></a> [aws.Perimeter-account](#provider\_aws.Perimeter-account) | 5.57.0 |
 
 ## Modules
 
@@ -28,7 +28,7 @@
 
 | Name | Type |
 |------|------|
-| [aws_route53_zone.nimbus](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
+| [aws_route53_zone.nimbus](https://registry.terraform.io/providers/hashicorp/aws/5.57.0/docs/resources/route53_zone) | resource |
 
 ## Inputs
 
